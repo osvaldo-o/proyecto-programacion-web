@@ -1,0 +1,91 @@
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    /*background: #f5a800;*/
+    background: #f5a800;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 4px 0;
+}
+/*-----------Header-----------*/
+.header{
+    display: flex;
+    width: auto;
+    height: 150px;
+    border-bottom: solid 5px #e50695;
+    padding-left: 90px;
+    background: #0033a1;
+}
+.header img{
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    padding-top: 3px;
+}
+.navegador{
+    margin: 5% 5%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navegador li{
+    list-style: None;
+    display: inline;
+    padding-right: 40px;
+}
+/*-----------Pie de Pagina-----------*/
+.pie ul{
+    padding: 0 10px;
+}
+.pie li{
+   list-style: none; 
+   padding: 3px 0;
+}
+.pie img{
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+.pie{
+    display: flex;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    background: #0033a1;
+    color: white;
+    border-top: solid 5px #e50695;
+}
+/*Contenido de la pagina*/
+section{
+    margin: 8px 10%;
+}
+section h1{
+    text-align: center;
+    padding-top: 8px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 0;
+    background: #f5a800;
+}
+.contenido-izq img{
+    width: 98%;
+    height: 100%;
+    border-radius: 30px 50% 30px 50%;
+}
+.contenido-der{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding: 10% 0% 10% 10%;
+}
+.nombre-platillo{
+    font-weight: bold;
+    font-style: italic;
+}

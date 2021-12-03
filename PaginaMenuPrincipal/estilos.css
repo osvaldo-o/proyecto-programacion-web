@@ -1,0 +1,75 @@
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #f5a800;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-----------Header-----------*/
+.header{
+    display: flex;
+    width: auto;
+    height: 150px;
+    padding-left: 90px;
+    background: #0033a1;
+    border-bottom: solid 5px #e50695;
+}
+.header img{
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    padding-top: 3px;
+}
+.navegador{
+    margin: 5% 5%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navegador li{
+    list-style: None;
+    display: inline;
+    padding-right: 40px;
+}
+/*-----------Contenido de la Pag-----------*/
+.contenido{
+    margin-left: 8%;
+    margin-right: 8%;
+    background: #f5a800;
+    padding: 20px 0;
+}
+.contenido-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-img img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+.contenido p{
+    padding: 20px 0;
+}
+/*-----------Pie de Pagina-----------*/
+.pie ul{
+    padding: 0 10px;
+}
+.pie li{
+   list-style: none; 
+   padding: 3px 0;
+}
+.pie{
+    display: flex;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background: #0033a1;
+    color: white;
+    border-top: solid 5px #e50695;
+}
