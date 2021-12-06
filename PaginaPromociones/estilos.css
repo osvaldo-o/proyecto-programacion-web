@@ -1,6 +1,6 @@
 body{
     font-family: 'Quattrocento Sans', sans-serif;
-    background: #f5a800;
+    background: black;
 }
 a{
     text-decoration: none;
@@ -46,11 +46,6 @@ p{
    list-style: none; 
    padding: 3px 0;
 }
-.pie img{
-    display: flex;
-    width: auto;
-    height: 200px;
-}
 .pie{
     display: flex;
     height: 180px;
@@ -60,31 +55,30 @@ p{
     color: white;
     border-top: solid 5px #e50695;
 }
-/*Contenido de la pagina*/
-section{
-    margin: 8px 10%;
-}
-section h1{
-    text-align: center;
-    padding-top: 8px;
-}
+/*CONTENIDO*/
 .contenido{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.titulo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.promocion{
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 10px 0;
-    background: #f5a800;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.contenido-izq img{
-    width: 98%;
-    height: 100%;
-    border-radius: 30px 50% 30px 50%;
+.promocion h1{
+    font-size: 110px;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
-.contenido-der{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    padding: 10% 0% 10% 10%;
+.elemento{
+    padding: 0 40px;
 }
-.nombre-platillo{
-    font-weight: bold;
-    font-style: italic;
+.anuncio{
+    padding: 20px 0;
 }
