@@ -20,7 +20,7 @@ p{
     height: 150px;
     border-bottom: solid 5px #e50695;
     padding-left: 90px;
-    background: #0033a1;
+    background: #24282e;
 }
 .header img{
     border-radius: 50%;
@@ -46,17 +46,12 @@ p{
    list-style: none; 
    padding: 3px 0;
 }
-.pie img{
-    display: flex;
-    width: auto;
-    height: 200px;
-}
 .pie{
     display: flex;
     height: 180px;
     align-items: center;
     justify-content: center;
-    background: #0033a1;
+    background: #24282e;
     color: white;
     border-top: solid 5px #e50695;
 }
