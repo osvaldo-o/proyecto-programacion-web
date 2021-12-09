@@ -10,17 +10,14 @@ a{
     margin: 0;
     padding: 0;
 }
-p{
-    margin: 4px 0;
-}
 /*-----------Header-----------*/
 .header{
     display: flex;
     width: auto;
     height: 150px;
-    border-bottom: solid 6px #e50695;
     padding-left: 90px; /*Padding a la izquierda para acomodar el logo*/
     background: #24282e;
+    border-bottom: solid 5px #e50695;
 }
 .header img{
     border-radius: 50%;
@@ -38,6 +35,31 @@ p{
     display: inline;
     padding-right: 40px;
 }
+/*-----------Contenido de la Pag-----------*/
+.contenido{ /*centramos el contenido de la pagina*/
+    margin-left: 8%;
+    margin-right: 8%;
+    background: #f5a800;
+    padding: 20px 0;
+}
+.contenido-img{ /*display flex para centrar la imagen*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-img img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.contenido p{
+    padding: 10px 0;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
 /*-----------Pie de Pagina-----------*/
 .pie ul{
     padding: 0 10px;
@@ -54,37 +76,4 @@ p{
     background: #24282e;
     color: white;
     border-top: solid 5px #e50695;
-}
-/*--------Contenido de la pagina--------------*/
-section{
-    margin: 2% 10%;
-}
-.contenido{ /*separa el contenido 50 50 (izquierda,derecha)*/
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 6% 0%;
-}
-.contenido-izq img{ /*del lado izquierdo solo tenemos la imagen con borde en dos puntas*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 40% 0 40%;
-}
-.contenido-der{ /*del lado derecho separamos cada platillo en dos columnas*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 10%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-.titulo{ /*para el titulo que es el primer elemento que se encuentra, ponemos que habarque de la fila 1 las 3 columnas*/
-    grid-column: 1/3;
-    font-style: italic;
-    font-size: 1.3em;
-}
-.nombre-platillo{
-    font-weight: bold;
-    font-style: italic;
-}
-.platillo{
-    font-size: 1.2em;
 }

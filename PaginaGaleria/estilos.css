@@ -16,10 +16,9 @@ p{
 /*-----------Header-----------*/
 .header{
     display: flex;
-    width: auto;
     height: 150px;
     border-bottom: solid 5px #e50695;
-    padding-left: 90px;
+    padding-left: 90px; /*Padding a la izquierda para acomodar el logo*/
     background: #24282e;
 }
 .header img{
@@ -29,11 +28,11 @@ p{
     padding-top: 3px;
 }
 .navegador{
-    margin: 5% 5%;
+    margin: 5% 5%; /*Margen para separar el navegador del logo*/
     font-size: 18px;
     font-weight: 600;
 }
-.navegador li{
+.navegador li{ /*display: inline para que los elementos se pongan uno despues del otro*/
     list-style: None;
     display: inline;
     padding-right: 40px;
@@ -46,11 +45,11 @@ p{
    list-style: none; 
    padding: 3px 0;
 }
-.pie{
+.pie{ /*Display flex con space-between para que en automatico se acomode cada ul uno depues del otro*/
     display: flex;
-    height: 180px;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background: #24282e;
     color: white;
     border-top: solid 5px #e50695;
@@ -59,8 +58,7 @@ p{
 section{
     margin: 8px 10%;
 }
-.contenido{
-    background: white;
+.contenido{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
